@@ -1,0 +1,60 @@
+button.toolpit-body {
+    border: 1px solid red;
+    background: no-repeat;
+    position: relative;
+}
+
+p.tolpit-text {
+    position: absolute;
+    max-width: 80px;
+    min-width: 50px;
+    padding: 5px;
+    margin-top: 5px;
+    background: #0000006b;
+    border-radius: 5px;
+    color: white;
+    transition: 0.2s all ease;
+    z-index: -2;
+    opacity: 0;
+    transform: translateY(10px);
+    margin-bottom: 0;
+    transition: 0.2s all ease;
+    visibility: hidden;
+}
+
+button.toolpit-body:hover .tolpit-text {
+    opacity:1;
+    transform:translateY(0%);
+    visibility:initial;
+}
+p.tolpid{
+    margin: 0;
+}
+.file-body {
+    max-width: 170px;
+    border: 1px solid red;
+    display: flex;
+    border-radius: 30px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.file-heading {
+    margin: 0;
+}
+
+.some-file {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    background: #bababa;
+    padding: 10px;
+    color: red;
+}
+
+.donwload-link {
+    margin: 0;
+    padding: 0;
+}
